@@ -26,8 +26,7 @@ When trying to open the new pluggable database:
 ```sql
 ALTER PLUGGABLE DATABASE li_pdb_28246 OPEN;
 ORA-01031: insufficient privileges
----
-
+```
 ## Cause of the Error
 
 The error occurred because the user executing the command lacked **SYSDBA privileges**, which are required for administrative operations such as opening or closing pluggable databases.  
@@ -40,9 +39,11 @@ Even though the user had the **DBA role**, it was not sufficient to execute syst
 1. Reconnected to the database as a SYSDBA user:
    ```sql
    CONNECT sys/your_sys_password AS SYSDBA;
+   ```
 Re-ran the open command:
- ##
-ALTER PLUGGABLE DATABASE li_pdb_28246 OPEN;
+```sql
+ ALTER PLUGGABLE DATABASE li_pdb_28246 OPEN;
+```
 
 The pluggable database opened successfully.
 
@@ -51,4 +52,5 @@ The pluggable database opened successfully.
 To confirm that the database was open and active:
  ```sql
 SELECT NAME, OPEN_MODE FROM V$PDBS;
+```
 
