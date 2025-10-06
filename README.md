@@ -61,7 +61,29 @@ To practice creating another PDB and then deleting it correctly to confirm under
 ---
 ![screenshot](https://github.com/Emmalise1/emma-oracle-pdb-lab/blob/main/Task2.PNG?raw=true)
 
+## Error Encountered
 
+No actual error occurred during this task.
 
-   
+## Task 3 — Oracle Enterprise Manager (OEM) Configuration
+
+### Objective
+To configure and verify **Oracle Enterprise Manager (OEM)**, ensuring it displays the created PDBs and user credentials clearly.
+
+---
+
+### Steps Performed
+
+1. **Accessed OEM using the browser:**
+   ```bash
+   https://localhost:5500/em
+    ```
+2. **Logged in with: **
+
+Username: lise_plsqlauca_28246
+Password: lise1
+Container Name: li_pdb_28246
+
+![screenshot](
+
 
