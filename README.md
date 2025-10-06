@@ -59,7 +59,8 @@ SELECT NAME, OPEN_MODE FROM V$PDBS;
 To practice creating another PDB and then deleting it correctly to confirm understanding of PDB lifecycle management.
 
 ---
-![screenshot](
+![screenshot](https://github.com/Emmalise1/emma-oracle-pdb-lab/blob/main/Task2.PNG?raw=true)
+
 
 
    
