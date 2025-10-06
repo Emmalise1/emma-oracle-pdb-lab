@@ -17,3 +17,4 @@ Through this hands-on experience, I better learned how PDBs work, how to manage 
 
 ### Objective
 To create a new PDB using the required naming convention and assign an admin user who will store all classwork.
+![screenshot](
