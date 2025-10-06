@@ -17,4 +17,38 @@ Through this hands-on experience, I better learned how PDBs work, how to manage 
 
 ### Objective
 To create a new PDB using the required naming convention and assign an admin user who will store all classwork.
-![screenshot](
+![screenshot](https://github.com/Emmalise1/emma-oracle-pdb-lab/blob/main/Create%20a%20pluggable%20db.PNG?raw=true)
+
+## Error Encountered
+
+When trying to open the new pluggable database:
+
+```sql
+ALTER PLUGGABLE DATABASE li_pdb_28246 OPEN;
+ORA-01031: insufficient privileges
+---
+
+## Cause of the Error
+
+The error occurred because the user executing the command lacked **SYSDBA privileges**, which are required for administrative operations such as opening or closing pluggable databases.  
+Even though the user had the **DBA role**, it was not sufficient to execute system-level commands.
+
+---
+
+## Solution Implemented
+
+1. Reconnected to the database as a SYSDBA user:
+   ```sql
+   CONNECT sys/your_sys_password AS SYSDBA;
+Re-ran the open command:
+ ##
+ALTER PLUGGABLE DATABASE li_pdb_28246 OPEN;
+
+The pluggable database opened successfully.
+
+## Verification
+
+To confirm that the database was open and active:
+ ```sql
+SELECT NAME, OPEN_MODE FROM V$PDBS;
+
