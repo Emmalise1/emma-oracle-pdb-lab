@@ -53,4 +53,14 @@ To confirm that the database was open and active:
  ```sql
 SELECT NAME, OPEN_MODE FROM V$PDBS;
 ```
+## Task 2 — Creating and Deleting Another PDB
+
+### Objective
+To practice creating another PDB and then deleting it correctly to confirm understanding of PDB lifecycle management.
+
+---
+![screenshot](
+
+
+   
 
