@@ -1,5 +1,5 @@
 # emma-oracle-pdb-lab
-# 🧩 Oracle Database Lab — PDB Creation, Deletion, and OEM Configuration
+# Oracle Database Lab — PDB Creation, Deletion, and OEM Configuration
 
 **Student Name:** IZA KURADUSENGE Emma Lise 
 **Student ID:** *28246*  
@@ -8,7 +8,7 @@
 
 ---
 
-## 📘 Overview
+## Overview
 During this lab, I completed work with Oracle’s Multitenant Architecture, which enables multiple pluggable databases (PDBs) to exist within a single container database (CDB).
 The goal was to create, manage, and delete PDBs in addition to setting up and accessing Oracle Enterprise Manager (OEM) to monitor the PDBs.
 
