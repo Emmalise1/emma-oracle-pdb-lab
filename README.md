@@ -79,11 +79,12 @@ To configure and verify **Oracle Enterprise Manager (OEM)**, ensuring it display
    https://localhost:5500/em
     ```
 2. Logged in with: 
-   ```bash
 Username: lise_plsqlauca_28246
+
 Password: lise1
+
 Container Name: li_pdb_28246
-      ```
+
 ![screenshot](https://raw.githubusercontent.com/Emmalise1/emma-oracle-pdb-lab/dcd75a5a1815284e053feae19eca41786d16d5c2/task%203.PNG)
 
 
