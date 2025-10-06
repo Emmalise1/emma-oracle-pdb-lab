@@ -79,6 +79,7 @@ To configure and verify **Oracle Enterprise Manager (OEM)**, ensuring it display
    https://localhost:5500/em
     ```
 2. Logged in with: 
+
 Username: lise_plsqlauca_28246
 
 Password: lise1
@@ -86,6 +87,16 @@ Password: lise1
 Container Name: li_pdb_28246
 
 ![screenshot](https://raw.githubusercontent.com/Emmalise1/emma-oracle-pdb-lab/dcd75a5a1815284e053feae19eca41786d16d5c2/task%203.PNG)
+
+## Conclusion
+
+This hands-on lab increased my understanding of Oracle’s multitenant database architecture.
+I created, managed, and deleted PDB(s) successfully while learning how each PDB is independent within the container.
+I also had hands-on experience configuring Oracle Enterprise Manager as it was useful to see what real-life database monitoring tools and interfaces would look like.
+
+Overall, this lab was providing hands-on experience with database provisioning and lifecycle management, important skills for a future database administrator.
+
+
 
 
 
